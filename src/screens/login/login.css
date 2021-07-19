@@ -1,0 +1,29 @@
+.modal{
+    height: 350x;
+    width:300px;
+    margin: auto;
+    margin-top: 25vh;
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+}
+
+.modal-FormControl{
+    margin-left:50px;
+    text-align: center;
+
+}
+
+.modal-input{
+    position:relative !important;
+    text-align: left;
+}
+.MuiTab-textColorInherit{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.login-button{
+    margin-right:115px;
+    margin-top:20px !important;
+}

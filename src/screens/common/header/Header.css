@@ -1,0 +1,22 @@
+.header{
+    background-color: #222;
+    height:36px;
+    padding: 8px 32px 8px 16px;
+}
+.header-icon{
+    background-color: #ff7f7f;
+    height:35px;
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.header-button{
+    
+    float:right;
+    margin:2px !important
+}

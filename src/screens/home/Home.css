@@ -1,0 +1,57 @@
+.home-header{
+    background-color: #ff9999;
+    padding:8px;
+    text-align: center;
+    font-size: 1rem;
+}
+.home-imageList{
+    overflow-x: scroll !important;
+    flex-wrap: nowrap !important;
+}
+
+.home-ImageListItem{
+    width:200px !important;
+    margin:10px;
+
+}
+
+.releasedmovies-filter{
+    margin-top:50px;
+
+}
+.releasedMoviesRight{
+    min-width:1100px !important;
+
+
+}
+
+.flex-container{
+    display:flex;
+}
+
+.filter-card{
+    width:240px;
+    height:480px;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+.filter-heading{
+    color:#a2aedc;
+
+}
+
+.apply-button{
+    margin-top:20px !important;  
+    width:150px !important;  
+}
+
+.home-ImageListItem-released{
+    margin:10px;
+
+
+}
+
+.genre , .artists{
+    width:150px !important;
+}
